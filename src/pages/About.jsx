@@ -48,7 +48,7 @@ const About = () => {
 
 
        {/* SKILL */}
-        <div className='flex flex-col mb-2'>
+        <div className='flex flex-col mb-2 mt-5 md:mt-0'>
             <h1 className='text-3xl font-bold'>Skill</h1>
             <div className='flex flex-col'>
                 <h>Frontend</h>
@@ -60,7 +60,7 @@ const About = () => {
 
 
        {/* PROJECTS */}
-        <div className='flex flex-col mb-2'>
+        <div className='flex flex-col ml-5 md:ml-0 mb-2'>
             <h1 className='text-3xl font-bold'>Project</h1>
             <div>
                 <h1>Portfolio</h1>

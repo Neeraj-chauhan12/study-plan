@@ -84,7 +84,7 @@ let rendertask= <div className='flex justify-center mt-6 items-center'>
             
 
             <div>
-                 <h1 className='md:text-2xl text-md font-bold'>Select Image</h1>
+                 <h1 className='md:text-2xl text-md text-white font-bold'>Select Image</h1>
            <select 
            onChange={(e)=>{setimage(e.target.value)}}
            value={image}
@@ -101,12 +101,12 @@ let rendertask= <div className='flex justify-center mt-6 items-center'>
 
 
 <div>
- <h1 className='text-md md:text-2xl mb-2'>Enter the subject name</h1>
+ <h1 className='text-md text-white md:text-2xl mb-2'>Enter the subject name</h1>
            <input 
            value={subject}
            onChange={(e)=>{setsubject(e.target.value)}}
            placeholder='Enter the subject name'
-           className='w-full py-2 px-3 rounded text-md md:text-2xl bg-gray-300 '
+           className='w-full py-2 px-3 text-black rounded text-md md:text-2xl bg-gray-300 '
            type="text" 
         
            />
@@ -115,12 +115,12 @@ let rendertask= <div className='flex justify-center mt-6 items-center'>
              
 
            <div>
-        <h1 className='text-md md:text-2xl mb-2'>Enter the subject description</h1>
+        <h1 className='text-md text-white md:text-2xl mb-2'>Enter the subject description</h1>
            <input 
            value={desc}
            onChange={(e)=>{setdesc(e.target.value)}}
            placeholder='Enter the subject description '
-           className='w-full py-2 px-3 rounded text-md md:text-2xl bg-gray-300 '
+           className='w-full py-2 px-3 text-black rounded text-md md:text-2xl bg-gray-200 '
            type="text" 
          
            />

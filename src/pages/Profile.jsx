@@ -68,7 +68,7 @@ const Profile = () => {
     <div className='w-screen min-h-screen flex md:flex-row flex-col-reverse'>
         <div className='h-screen w-screen px-3 md:px-0  md:w-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 flex flex-col py-3'>
          <h1 className='text-2xl font-bold my-5'>Hours Studies</h1>
-         <div className='flex justify-around items-center py-2 px-3 bg-gray-200'>
+         <div className='flex justify-around text-black items-center py-2 px-3 bg-gray-200'>
             <h1>0</h1>
             <h1>1</h1>
             <h1>2</h1>

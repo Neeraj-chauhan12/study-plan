@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='w-full pb-5 pt-10 bg-linear-to-r/srgb from-indigo-500 to-teal-400 px-10 flex justify-between border-gray-400  border-b-2 items-center'>
+    <div className='w-full pb-5 pt-10 bg-linear-to-r/srgb from-indigo-500 to-teal-400 px-3 md:px-10 flex justify-between border-gray-400  border-b-2 items-center'>
         <Link to={'/profile'} className='text-2xl font-bold'>Hey, Neeraj</Link>
 
         <div className='hidden md:flex items-center gap-8'>
