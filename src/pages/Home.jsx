@@ -14,12 +14,12 @@ const Home = () => {
         <Navbar />
        
        
-       <div className='flex justify-between mt-3 px-5 py-2 '>
-         <h1 className='text-3xl font-bold'>Education Schedule</h1>
-         <div className="join text-3xl">
-  <button className="join-item btn">«</button>
-  <button className="join-item btn">Page 22</button>
-  <button className="join-item btn">»</button>
+       <div className='flex justify-between mt-3 px-2 md:px-5 py-2 '>
+         <h1 className='md:text-3xl text-2xl font-bold'>Education Schedule</h1>
+         <div className="join mt-2 md:mt-0 md:text-3xl">
+              <button className="join-item btn">«</button>
+             <button className="join-item btn">Page 22</button>
+            <button className="join-item btn">»</button>
 </div>
 
 
@@ -35,9 +35,9 @@ const Home = () => {
       
 
 
-      <div className='flex justify-between px-5 py-2 '>
-         <h1 className='text-3xl  font-bold'>Education Upcoming Schedule</h1>
-         <div className="join text-3xl mt-3">
+      <div className='flex justify-between md:px-5 px-2 py-2 '>
+         <h1 className='md:text-3xl text-md  mt-2 md:mt-0 font-bold'>Education Upcoming Schedule</h1>
+         <div className="join text-2xl md:text-3xl mt-3">
   <button className="join-item btn">«</button>
   <button className="join-item btn">Page 22</button>
   <button className="join-item btn">»</button>

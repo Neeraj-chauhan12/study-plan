@@ -46,7 +46,7 @@ const Educationschedule = () => {
     <>
       
         
-        <div className=' flex min-h-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 py-10 px-10 gap-16 flex-wrap w-screen'>
+        <div className=' flex min-h-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 py-10 px-16 gap-10 md:px-10 md:gap-16 flex-wrap w-screen'>
 
           <Link to={'/createchedule'} className='h-72 w-60 border-4 rounded border-black'>
                     <img  className='h-40 w-full' src="https://tse1.mm.bing.net/th?id=OIP.L01owCZB3KMBqSyArtW_fAHaF7&pid=Api&P=0&h=180" alt="" />

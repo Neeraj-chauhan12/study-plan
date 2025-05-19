@@ -65,8 +65,8 @@ const Profile = () => {
 
   return (
     <>
-    <div className='w-screen h-screen flex'>
-        <div className='h-screen  w-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 flex flex-col py-3'>
+    <div className='w-screen min-h-screen flex md:flex-row flex-col-reverse'>
+        <div className='h-screen w-screen px-3 md:px-0  md:w-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 flex flex-col py-3'>
          <h1 className='text-2xl font-bold my-5'>Hours Studies</h1>
          <div className='flex justify-around items-center py-2 px-3 bg-gray-200'>
             <h1>0</h1>
@@ -106,9 +106,7 @@ const Profile = () => {
     
         </div>
 
-        <div className='h-screen w-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 justify-center items-center gap-x-16 flex flex-wrap '>
-  
-
+        <div className='md:h-screen h-[70vh] w-screen md:w-1/2 bg-linear-to-r/srgb from-indigo-500 to-teal-400 justify-center items-center gap-x-16 flex flex-wrap '>
 <calendar-date class="cally bg-base-100 border border-base-300 shadow-lg rounded-box">
   <svg aria-label="Previous" className="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
   <svg aria-label="Next" className="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
@@ -121,7 +119,7 @@ const Profile = () => {
         </div>
     </div>
 
-    <div className='h-screen w-screen bg-linear-to-r/srgb from-indigo-500 to-teal-400 justify-center items-center gap-x-16 flex flex-wrap' >
+    <div className='min-h-screen md:h-screen w-screen bg-linear-to-r/srgb from-indigo-500 to-teal-400 justify-center items-center gap-10 md:gap-x-16 flex flex-wrap' >
         {
             data.map(({id,icon,head,mid})=>{
                 return(

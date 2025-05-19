@@ -70,7 +70,7 @@ const EducationUpcoming = () => {
     <>
       
         
-        <div className=' flex bg-linear-to-r/srgb from-indigo-500 to-teal-400 min-h-1/2 py-10 px-10 gap-16 flex-wrap w-screen'>
+        <div className=' flex bg-linear-to-r/srgb from-indigo-500 to-teal-400 min-h-1/2 py-10 px-14 md:px-10 gap-16 flex-wrap w-screen'>
         
         
 
